@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1018794713334",
+    "project_id": "kumsal-ajans",
+    "storage_bucket": "kumsal-ajans.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018794713334:android:efafbd9b6ebfc438c3ccd7",
+        "android_client_info": {
+          "package_name": "com.example.kumsal_ajans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018794713334-o4uqljsfebbccr6kd5gog5fhksjif349.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK_X6j474XRACfmj9xtXiizZnGTwcyyqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018794713334-o4uqljsfebbccr6kd5gog5fhksjif349.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
