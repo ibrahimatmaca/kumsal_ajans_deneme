@@ -14,7 +14,7 @@ class LoginViewModel extends BaseViewModel {
 
   bool hasInternet = false;
 
-  late final _authService;
+  late final AuthService _authService;
 
   late bool isConnectivityCheck;
 
@@ -33,7 +33,7 @@ class LoginViewModel extends BaseViewModel {
   Future<void> internetConnectionChecker() async {
     InternetConnectionChecker().onStatusChange.listen((status) {
       final _hasInternet = status == InternetConnectionStatus.connected;
-      this.hasInternet = _hasInternet;
+      hasInternet = _hasInternet;
       notifyListeners();
     });
   }
